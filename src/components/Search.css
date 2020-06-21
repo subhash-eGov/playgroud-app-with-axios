@@ -1,0 +1,15 @@
+.table {
+  min-width: 700
+}
+
+.tablerow {
+  background-color : darkgrey
+}
+
+.tablebody {
+  background-color: snow
+}
+
+.tablecell {
+  width : 300px
+}
