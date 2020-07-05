@@ -2,7 +2,7 @@
   "name": "playground-app-with-axios",
   "version": "0.1.0",
   "private": true,
-  "proxy":"https://egov-micro-dev.egovernments.org/",
+  "proxy": "https://egov-micro-dev.egovernments.org/",
   "dependencies": {
     "@material-ui/core": "^4.10.2",
     "@material-ui/icons": "^4.9.1",
@@ -10,6 +10,8 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
+    "firebase-tools": "^8.4.3",
+    "http-proxy-middleware": "^1.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
