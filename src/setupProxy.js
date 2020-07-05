@@ -1,10 +1,19 @@
 const { createProxyMiddleware } = require('http-proxy-middleware');
+
 module.exports = function(app) {
   app.use(
-    'http://localhost:3000',
+    '/egov-mdms-service',
     createProxyMiddleware({
       target: 'https://egov-micro-dev.egovernments.org',
-      changeOrigin: true,
+      changeOrigin: true
+    })
+  );
+
+  app.use(
+    '/localization',
+    createProxyMiddleware({
+      target: 'https://egov-micro-dev.egovernments.org',
+      changeOrigin: true
     })
   );
 };
