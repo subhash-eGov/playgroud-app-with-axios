@@ -107,9 +107,9 @@ class SearchForm extends React.Component {
   render() {
     const {rows=[], showResult={}} = this.state;
     let result;
-    if (showResult)
+    if (showResult) {
       result = <SearchResult rows={rows}/>
-    else {
+    } else {
       result = null;
     }
     return (<div>
